@@ -1,36 +1,60 @@
-# This is a basic workflow to help you get started with Actions
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Starbuks Coffee company</title>
+</head>
+<body>
+    <nav class="navbar">
+      <div class="navbar-container">
+         <div class="navbar-brand">
+             <a href="index.html">
+                <img src="img/logo.png" alt="Starbucks">
+             </a>
+         </div>
+          <ul class="navbar-nav-up">
+              <li>
+                  <a href="#">Sign In</a>&nbsp;&nbsp;
+                  <a href="#">My Starbucks</a>&nbsp;&nbsp;
+                  <a href="#">Customer Service & Ideas</a>&nbsp;&nbsp;
+                  <a href="#">Find a Store</a>
+              </li>
 
-name: CI
+          <ul class="navbar-nav-doot">
+              <li>
+                  <img src="img/doot.png" alt="">
+              </li>
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+          </ul>
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+          <ul class="navbar-nav-left">
+              <li>
+                  <a href="#">Coffee</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#">Store</a>&nbsp;
+              </li>
+          </ul>
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+          <ul class="navbar-nav-right">
+              <li>
+                  <a href="#">Responsibility</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#">Starbucks Rewards</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#">What's new </a> &nbsp;
+              </li>
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+          </ul>
+      </div>
+    </nav>
+    <script src="script.js"></script>
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+</body>
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+<body>
+<h2></h2>
+<img src="img/ground.png" alt="ground">
+</body>
+
+</html>
